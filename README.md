@@ -19,8 +19,6 @@ AP_i  = mean of row i, diagonal excluded
 
 **APE (Attention Proximity Entropy)** is the Shannon entropy of the same row, measuring how evenly a token's attention is distributed across its context.
 
-Neither metric uses softmax — these are raw logits, making them comparable across texts of different lengths.
-
 ---
 
 ## Requirements
