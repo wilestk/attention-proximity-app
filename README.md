@@ -1,4 +1,4 @@
-# Proximity Score
+# Attention Proximity Score
 
 A local web app for visualizing **Attention Proximity (AP)** — a per-token measure of how much a token's final-layer query–key representation reaches out to the rest of the text.
 
