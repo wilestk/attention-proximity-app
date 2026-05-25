@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Node / frontend
+proximity-score-app/frontend/node_modules/
+proximity-score-app/frontend/dist/
+proximity-score-app/frontend/.vite/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Analysis data (large datasets, not part of the app)
+proximity-score-app/analysis/
+
+# Static widget (separate project, not part of the app)
+proximity-score-app/static-widget/
+
+# Root-level scratch files
+main.py
+poetry_score.py
+troubleshooting.py
+CLAUDE.md
+
+# HuggingFace model cache (if ever downloaded locally)
+*.bin
+*.safetensors
