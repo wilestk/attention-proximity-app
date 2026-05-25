@@ -4,7 +4,7 @@ A local web app for visualizing **Attention Proximity (AP)** — a per-token mea
 
 The app scores any text you paste, colors each token by its AP or APE value, and lets you click tokens to explore the underlying similarity matrix interactively.
 
-![screenshot placeholder](docs/screenshot.png)
+![screenshot](proximity-score-app/screenshot.png)
 
 ---
 
